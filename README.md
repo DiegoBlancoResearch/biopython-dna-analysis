@@ -1,35 +1,28 @@
-# # BioPython DNA Analysis
+# BioPython DNA Analysis
 
-This repository contains BioPython scripts for performing DNA sequence analysis. It is designed to streamline bioinformatics workflows and provide accessible tools for analyzing genetic sequences.
+### Análisis de secuencias de ADN basados en BioPython
+---
+
+Este repositorio contiene scripts y herramientas desarrolladas en Python para el análisis de secuencias de ADN, utilizando la poderosa biblioteca BioPython. El propósito principal es proporcionar soluciones reproducibles, eficientes y científicas para flujos de trabajo bioinformáticos.
 
 ---
 
-![Repository Size](https://img.shields.io/github/repo-size/DiegoBlancoResearch/biopython-dna-analysis)
-![Last Updated](https://img.shields.io/github/last-commit/DiegoBlancoResearch/biopython-dna-analysis)
-![Languages](https://img.shields.io/github/languages/top/DiegoBlancoResearch/biopython-dna-analysis)
+## **Resumen**
+
+El análisis de ADN juega un papel crucial en el entendimiento del código genético. Este proyecto se centra en generar herramientas modulares y extensibles que agilicen procesos como:
+- **Lectura y escritura de secuencias FASTA/GenBank**.
+- **Cálculo de contenido GC y otras métricas genéticas clave**.
+- **Traducción de secuencias a proteínas funcionales**.
+- **Visualización de secuencias y propiedades del ADN**.
+
+### **Objetivo**
+Facilitar el análisis bioinformático en contextos de investigación científica y generar código reproducible para experimentos moleculares.
 
 ---
 
-## Features
+## **Estructura del Proyecto**
 
-- **DNA Sequence Analysis**: Efficient and reproducible analysis pipelines for DNA sequences.
-- **Jupyter Notebooks**: Interactive tools for better visualization and understanding.
-- **Extensible**: Code structure allows for easy addition of new analyses.
-
----
-
-## Getting Started
-
-### Prerequisites
-
-Ensure you have the following installed:
-- Python 3.8+
-- [BioPython library](https://biopython.org/)
-- Jupyter Notebook
-
-### Installation
-
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/DiegoBlancoResearch/biopython-dna-analysis.git
+```plaintext
+. notebooks/    # Se incluyen ejemplos interactivos.
+. doc/          # Figuras y explicaciones científicas.
+. scripts/      # Algoritmos optimizados para tareas específicas.
