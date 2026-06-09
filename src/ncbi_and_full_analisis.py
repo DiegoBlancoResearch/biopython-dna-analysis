@@ -1,5 +1,5 @@
 from Bio import Entrez, SeqIO
-Entrez.email = "diegoblancob2011@icloud.com"
+Entrez.email = "diegoblancob2011@gmail.com"
 genes_list = ["NM_000484.4", "NM_001377265", "KR710721.1"]
 
 
